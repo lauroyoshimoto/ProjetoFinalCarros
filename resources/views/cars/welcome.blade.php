@@ -30,7 +30,7 @@
         </div>
         @endforeach
         @if(count($cars) == 0 && $search)
-            <p>Não foi possível encontrar nenhum carro com {{ $search }}! <a href='/'>Ver todos</a></p>
+            <p>Não foi possível encontrar nenhum carro com {{ $search }}. <a href='/'>Ver todos</a></p>
         @elseif(count($cars) == 0)
             <p>Não há carros disponíveis</p>
         @endif
