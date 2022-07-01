@@ -27,10 +27,10 @@
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Lauro multimarcas</a>
+                            <a href="/" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a href="/create" class="nav-link">Criar carros</a>
+                        <a href="/create" class="nav-link">Anunciar</a>
                         </li>
                         @auth
                         <li class="nav-item">
@@ -71,7 +71,7 @@
         </div>
     </main>
     <footer>
-        <p> Leilões Votuporanga &copy; 2022</p>
+        <p> Lauro's Multimarcas &copy; 2022</p>
     </footer>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>   
     </body>

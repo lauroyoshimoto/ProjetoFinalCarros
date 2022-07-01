@@ -5,7 +5,7 @@
 @section('content')
 
 <div id="car-create-container" class="col-md-6 offset-md-3">
-    <h1>Crie o seu carro</h1>
+    <h1>Anuncie seu veículo</h1>
     <form action="/" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group mb-2">

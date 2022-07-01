@@ -27,3 +27,4 @@ Route::put('/update/{id}', [CarController::class, 'update'])->middleware('auth')
 Route::get('/contact', function () {
     return view('contact');
 });
+

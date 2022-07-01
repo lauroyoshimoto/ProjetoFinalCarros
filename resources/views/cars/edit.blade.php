@@ -6,7 +6,7 @@
 
 <div id="car-create-container" class="col-md-6 offset-md-3">
     <h1>Editando: {{ $car->model }}</h1>
-    <form action="//update/{{ $car->id }}" method="POST" enctype="multipart/form-data">
+    <form action="/update/{{ $car->id }}" method="POST" enctype="multipart/form-data">
         @csrf
         @method('PUT')
         <div class="form-group mb-2">
