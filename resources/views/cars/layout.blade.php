@@ -41,7 +41,7 @@
                                 @csrf 
                                 <a href="/logout" 
                                     class="nav-link"
-                                    onclick="car.prcarDefault();
+                                    onclick="event.preventDefault();
                                     this.closest('form').submit();">
                                     Sair
                                 </a>
